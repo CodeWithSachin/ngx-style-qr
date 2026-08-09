@@ -1,4 +1,4 @@
-# @codewithsachin/ngx-style-qr
+# @code_with_sachin/ngx-style-qr
 
 Styled QR codes for Angular, rendered as SVG. **No runtime dependencies** — the QR
 encoder is built in.
@@ -15,7 +15,7 @@ encoder is built in.
 ## Install
 
 ```bash
-npm i @codewithsachin/ngx-style-qr
+npm i @code_with_sachin/ngx-style-qr
 ```
 
 Requires Angular 22+. No other dependency — not even a peer.
@@ -47,7 +47,7 @@ an `@NgModule` — put them in the module's `imports`, **not** `declarations`. N
 ```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { StyleQrComponent } from '@codewithsachin/ngx-style-qr';
+import { StyleQrComponent } from '@code_with_sachin/ngx-style-qr';
 
 import { AppComponent } from './app.component';
 
@@ -64,7 +64,7 @@ export class AppModule {}
 
 ```ts
 import { Component } from '@angular/core';
-import { StyleQrComponent } from '@codewithsachin/ngx-style-qr';
+import { StyleQrComponent } from '@code_with_sachin/ngx-style-qr';
 
 @Component({
   selector: 'app-share',
@@ -138,7 +138,7 @@ The encoder and renderer are exported on their own — useful for painting into 
 canvas, a terminal, or a print pipeline:
 
 ```ts
-import { encodeQr, buildSvgModel } from '@codewithsachin/ngx-style-qr';
+import { encodeQr, buildSvgModel } from '@code_with_sachin/ngx-style-qr';
 
 const qr = encodeQr('https://sachinsingh.me', 'H');
 qr.version; // 3

@@ -1,5 +1,5 @@
 {
-  "name": "@codewithsachin/ngx-style-qr",
+  "name": "@code_with_sachin/ngx-style-qr",
   "version": "0.1.0",
   "description": "Styled QR codes for Angular, rendered as SSR-safe SVG. Zero runtime dependencies \u2014 the QR encoder is built in.",
   "keywords": [
