@@ -1,0 +1,40 @@
+{
+  "name": "@code_with_sachin/ngx-style-qr",
+  "version": "0.1.1",
+  "description": "Styled QR codes for Angular, rendered as SSR-safe SVG. Zero runtime dependencies — the QR encoder is built in.",
+  "keywords": [
+    "angular",
+    "qr",
+    "qrcode",
+    "qr-code",
+    "svg",
+    "ssr",
+    "styled",
+    "gradient",
+    "logo",
+    "standalone",
+    "signals"
+  ],
+  "homepage": "https://sachinsingh.me/packages/qr",
+  "license": "MIT",
+  "author": "Sachin Singh (https://sachinsingh.me)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithSachin/ngx-style-qr.git",
+    "directory": "projects/ngx-style-qr"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeWithSachin/ngx-style-qr/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^22.0.0",
+    "@angular/core": "^22.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

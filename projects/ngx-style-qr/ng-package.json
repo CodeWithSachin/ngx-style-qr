@@ -3,5 +3,6 @@
   "dest": "../../dist/ngx-style-qr",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": ["CHANGELOG.md"]
 }
